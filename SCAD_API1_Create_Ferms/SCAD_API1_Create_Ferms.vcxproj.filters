@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplicationCreateFerm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\climits" />
+    <None Include="..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows\v6.0A\Include\CommCtrl.rh" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\cstddef" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\cstdio" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\cstdlib" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\cstring" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\cwchar" />
+    <None Include="..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows\v6.0A\Include\Dde.rh" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\exception" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\fstream" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\ios" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\iosfwd" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\iostream" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\istream" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\iterator" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory" />
+    <None Include="..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\new" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\ostream" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\sstream" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdexcept" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\streambuf" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\typeinfo" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\utility" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\vector" />
+    <None Include="..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows\v6.0A\Include\WinNT.rh" />
+    <None Include="..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows\v6.0A\Include\WinUser.rh" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xdebug" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xiosbase" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocinfo" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocnum" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xmemory" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xstddef" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xstring" />
+    <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xutility" />
+    <None Include="WinDDK\WinDDK\INC\mfc42\afxext.inl">
+      <Filter>Исходные файлы</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinDDK\WinDDK\INC\mfc42\afxwin.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
